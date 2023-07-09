@@ -3,7 +3,7 @@ The model generates captions relevant to the visual content of the images by com
 
 Hosted @: [streamlit]()
 
-Notebook @: [kaggle]()
+Notebook @: [kaggle](https://www.kaggle.com/code/ashutoshpanigrahy/notebook0ecb3cce5b)
 
 ## Dataset Description
 This repository contains code for a caption generator built using the Flicker8k dataset from Kaggle. The Flicker8k dataset consists of 8,100 images, each accompanied by 5 captions. In this project, approximately 80% (6,400 images) of the dataset was used for training, while the remaining 20% was used for testing. Flicker8k was chosen over datasets larger datasets like Flicker30k, MS-COCO to ensure smaller training times(faster feedback) on CPUs & GPUs.
