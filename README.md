@@ -1,7 +1,7 @@
-# Caption Generation using Flicker8k Dataset
+![image](https://github.com/Ash4dev/caption-generator/assets/77205433/5d104807-c3ea-4158-9922-7b188c15a5dd)# Caption Generation using Flicker8k Dataset
 The model generates captions relevant to the visual content of the images by combining image features and linguistic context. This approach utilizes encoder-decoder deep learning architectures (CNNs and LSTMs) to generate meaningful captions for images.
 
-Hosted @: [streamlit]()
+Hosted @: [streamlit](https://caption-generator.streamlit.app/)
 
 Notebook @: [kaggle](https://www.kaggle.com/code/ashutoshpanigrahy/notebook0ecb3cce5b)
 
@@ -12,9 +12,9 @@ This repository contains code for a caption generator built using the Flicker8k 
 BLEU (Bilingual Evaluation Understudy) is a metric for evaluating the quality of generated texts compared to reference texts. It measures n-gram precision and includes a brevity penalty. BLEU scores range from 0 to 1, with 1 indicating a perfect match. It is commonly used in machine translation and image captioning tasks.
 
 ## Sample Outputs 
-![image](https://github.com/Ash4dev/caption-generator/assets/77205433/46b42701-0b3b-4e6c-9f68-21c3e419b519)
-![image](https://github.com/Ash4dev/caption-generator/assets/77205433/3965b13c-28b2-4fce-92ef-748a8503c4d7)
-![image](https://github.com/Ash4dev/caption-generator/assets/77205433/dc6b8811-0b7a-4621-ac7d-e6b70061ba1c)
+![image](https://github.com/Ash4dev/caption-generator/assets/77205433/49692f14-3826-407e-9c00-158190334a73)
+![image](https://github.com/Ash4dev/caption-generator/assets/77205433/117f64dc-6af4-4ed4-9ed7-5fdab04a0dc7)
+
 
 ## Possible Applications 
 1. Enhanced accessibility for visually impaired individuals
