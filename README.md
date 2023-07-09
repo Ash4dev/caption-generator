@@ -2,6 +2,7 @@
 The model generates captions relevant to the visual content of the images by combining image features and linguistic context. This approach utilizes encoder-decoder deep learning architectures (CNNs and LSTMs) to generate meaningful captions for images.
 
 Hosted @: [streamlit]()
+
 Notebook @: [kaggle]()
 
 ## Dataset Description
@@ -23,31 +24,31 @@ BLEU (Bilingual Evaluation Understudy) is a metric for evaluating the quality of
 ## Approach
 
 1. Image Preprocessing:
-  1. Normalize and resize the images.
-  2. Prepare them for feature extraction.
+  - Normalize and resize the images.
+  - Prepare them for feature extraction.
 
 2. Feature Extraction:
-  1. Use a pre-trained CNN architecture (e.g., Xception) to extract meaningful image features.
-  2. CNN learns visual patterns and encodes them into feature vectors.
+  - Use a pre-trained CNN architecture (e.g., Xception) to extract meaningful image features.
+  - CNN learns visual patterns and encodes them into feature vectors.
   
 3. Caption Preprocessing:
-  1. Clean the captions by removing punctuation, lowercasing, etc.
-  2. Tokenize the cleaned captions into individual words or tokens.
+  - Clean the captions by removing punctuation, lowercasing, etc.
+  - Tokenize the cleaned captions into individual words or tokens.
 
 4. Embedding Generation:
-  1. Pass the tokenized & padded captions through a trainable embedding layer.
-  2. Map words to dense vector representations (word embeddings).
-  3. Captures semantic meaning and relationships between words.
+  -  Pass the tokenized & padded captions through a trainable embedding layer.
+  -  Map words to dense vector representations (word embeddings).
+  - Captures semantic meaning and relationships between words.
 
 5. LSTM Processing:
-  1. Feed word embeddings into an LSTM layer.
-  2. LSTM captures sequential information and dependencies in the captions.
-  3. Learns to predict the likelihood of the next word based on preceding words.
+  - Feed word embeddings into an LSTM layer.
+  - LSTM captures sequential information and dependencies in the captions.
+  - Learns to predict the likelihood of the next word based on preceding words.
 
 6. Merging and Classification:
-  1. Merge image features from the CNN with processed captions from the LSTM.
-  2. Pass the merged data through a dense layer.
-  3. Perform multi-label classification to predict the likelihood of each word appearing after the preceding sequence.
+  -  Merge image features from the CNN with processed captions from the LSTM.
+  - Pass the merged data through a dense layer.
+  - Perform multi-label classification to predict the likelihood of each word appearing after the preceding sequence.
 
 ## Insights from Hyperparamter tuning
 1. Shallow networks perform better.
